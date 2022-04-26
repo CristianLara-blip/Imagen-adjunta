@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-areas: "head head head"
+                         "imag imag imag"
+                         "main main main"
+                         "c1 c2 c3"
+                         "foot foot foot"
+}
+.a{grid-area: head; background: rgb(134, 16, 32)}
+.b{grid-area: imag; background: rgb(209, 159, 52)}
+.c{grid-area: main; background: rgb(122, 198, 211)}
+.d{grid-area: c1; background: #4adf4a}
+.e{grid-area: c2; background: #dfe23e}
+.f{grid-area: c3; background: #e78931}
+.g{grid-area: foot; background: #3344db}
+
+.a, .c{
+    height: 38px;
+}
+
+.b{
+    height: 271px;
+}
+
+.d, .e, .f{
+    height: 271px;
+}
+
+.g{
+    height: 50px;
+}
+
+
+
+
